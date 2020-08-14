@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Further stuff
+02_DCGAN_CIFAR-10/data/
