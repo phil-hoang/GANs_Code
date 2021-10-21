@@ -130,3 +130,4 @@ dmypy.json
 
 # Further stuff
 02_DCGAN_CIFAR-10/data/
+*.DS_Store
