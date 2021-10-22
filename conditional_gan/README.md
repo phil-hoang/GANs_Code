@@ -26,10 +26,9 @@ Results are then written into the folder `weights/exp2`.
 
 
 ## TODOS
-* Add argparse
 * In model, remove constants and get parameters from the data.
-* Maybe: Split up the model.py, especially the implementation of train_step
-* Add automatic saving of weights to folders
+* Add automatic saving of weights to folders -> Folders are created, weights not yet saved
+
 * Add logging (single file?)
 * Implement run.py
 * Add CIFAR10

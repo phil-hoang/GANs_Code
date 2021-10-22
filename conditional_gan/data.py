@@ -12,11 +12,14 @@ def mnist(batch_size):
     all_digits = np.concatenate([x_train, x_test])
     all_labels = np.concatenate([y_train, y_test])
 
-    image_size = x_train.shape[1]
-    if len(x_train[0]) == 2:
-        num_channels = 1
-    else:
-        num_channels = 3
+    image_size = 28
+    num_channels = 1
+    
+    #image_size = x_train.shape[1]
+    #if len(x_train[0]) == 2:
+    #    num_channels = 1
+    #else:
+    #   num_channels = 3
     
 
     # Scale the pixel values to [0, 1] range, add a channel dimension to
@@ -24,7 +27,6 @@ def mnist(batch_size):
     all_digits = all_digits.astype("float32") / 255.0
     all_digits = np.reshape(all_digits, (-1, image_size, image_size, num_channels))
     all_labels = keras.utils.to_categorical(all_labels, 10)
-    
     
 
     # Create tf.data.Dataset.
