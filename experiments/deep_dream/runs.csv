@@ -1,0 +1,7 @@
+"image_name_in","result_prefix","layer_settings","step","num_octave","octave_scale","iterations","max_loss"
+sky.jpg,sky_dream,"{'mixed4': 1.0, 'mixed5': 1.5, 'mixed6': 2.0, 'mixed7': 2.5}",0.01,3,1.4,20,15.0
+0abbeddf71.jpg,0abbeddf71_dream,"{'mixed4': 1.0, 'mixed5': 1.5, 'mixed6': 2.0, 'mixed7': 2.5}",0.01,3,1.4,20,15.0
+10c555c1b1.jpg,10c555c1b1_dream,"{'mixed4': 1.0, 'mixed5': 1.5, 'mixed6': 2.0, 'mixed7': 2.5}",0.01,3,1.4,20,15.0
+10c555c1b1.jpg,10c555c1b1_dream-2,"{'mixed4': 1.0, 'mixed5': 1.5, 'mixed6': 2.0, 'mixed7': 2.5}",0.01,3,1.4,20,15.0
+10c555c1b1.jpg,10c555c1b1_dream-2,"{'mixed4': 1.0, 'mixed5': 1.5, 'mixed6': 2.0, 'mixed7': 2.5, 'mixed9': 4.0}",0.01,3,1.4,20,15.0
+10c555c1b1.jpg,10c555c1b1_dream-3,"{'mixed4': 1.0, 'mixed6': 2.0, 'mixed7': 2.5, 'mixed9': 4.0, 'mixed10': 5.0}",0.01,4,1.2,30,20.0
