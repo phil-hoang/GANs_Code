@@ -1,0 +1,2 @@
+base_image_name, style_image_name, iteration, style_layer_names, content_layer_name,total_variation_weight, style_weight, content_weight
+/Users/David/.keras/datasets/paris.jpg,/Users/David/.keras/datasets/starry_night.jpg,1000,"['block1_conv1', 'block2_conv1', 'block3_conv1', 'block4_conv1', 'block5_conv1']",block5_conv1,1e-06,1e-06,2.5e-08
