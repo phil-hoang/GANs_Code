@@ -133,3 +133,7 @@ dmypy.json
 *.DS_Store
 /dev
 *.png
+experiments/real_time_style_transfer/models/
+experiments/real_time_style_transfer/generatedImages/
+experiments/image_pairs.csv
+experiments/runs.csv
